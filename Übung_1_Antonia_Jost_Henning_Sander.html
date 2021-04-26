@@ -21,9 +21,9 @@
    
     </style>
   <tr>
-    <td>Starting coordinates [Lng, Lat]</td>
-    <td>Ending coordinates [Lng, Lat]</td>
-    <td>Strecke [m]</td>
+    <th>Starting coordinates [Lng, Lat]</th>
+    <th>Ending coordinates [Lng, Lat]</th>
+    <th>Distance [m]</th>
   </tr>
 </table>
 </head>
@@ -189,7 +189,7 @@ function sum() {
     for(i = 0; i < tabelle.length; i++) {
        addiere = addiere + tabelle[i][2]; 
     }
-    return ("Die Gesamtlänge der Streckenabschnitte beträgt: " + addiere + " m.");
+    return ("The total length of the route sections is: " + addiere + " m.");
 }
 
 document.write(sum()); 
